@@ -1,0 +1,21 @@
+
+public class Fruta {
+    private int quantidade;
+    private boolean madura;
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
+    }
+
+    public boolean isMadura() {
+        return madura;
+    }
+
+    public void setMadura(boolean madura) {
+        this.madura = madura;
+    }
+}
